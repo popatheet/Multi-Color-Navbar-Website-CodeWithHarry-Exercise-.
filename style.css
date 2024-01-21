@@ -1,0 +1,48 @@
+
+:root{
+  --color:	#111111;
+  --font-family:Verdana, Geneva, Tahoma, sans-serif;
+  --background-color:#f5f5f5;
+  --font-weight:bold;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  text-decoration: double;
+  font-weight: var(--font-weight);
+  color:var(--color);
+}
+
+ol{
+  list-style-type:none;
+  color:whitesmoke;
+  display: flex;
+  position:relative;
+  justify-content: flex-end;
+  gap:40px;
+  background-color:var(--background-color);
+  height: 30px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+ol li:hover{
+  background-color: yellowgreen;
+  border-radius: 0px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+body{
+   background-image: url("https://img.freepik.com/free-vector/gradient-background-wave-minimalist-style_483537-4963.jpg?size=626&ext=jpg&ga=GA1.1.1674709267.1705758640&semt=ais");
+  background-size: cover;
+  height: 500px;
+}
